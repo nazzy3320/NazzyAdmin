@@ -15,7 +15,7 @@
  end
  
  -- Notification library
- local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/nazzy3320/Admin-panel-NZ/main/FilteringEnabledFE"))();
+ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/nazzy3320/NazzyAdmin/main/FilteringEnabledFE"))();
  local Notify = Notification.Notify;
 
  Notify({
