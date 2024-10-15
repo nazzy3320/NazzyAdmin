@@ -58,7 +58,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 2.9
+ currentversion = 3.2
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -7222,7 +7222,7 @@ cmd.add({"scriptall"}, {"scriptall", "scriptall"}, function()
  end)
 
  cmd.add({"bloxFruit"}, {"bloxFruit", "bloxFruit"}, function()
-	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 end)
 
 cmd.add({"MichaelsZombies"}, {"MichaelsZombies", "MichaelsZombies"}, function()
