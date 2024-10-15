@@ -7221,6 +7221,10 @@ cmd.add({"scriptall"}, {"scriptall", "scriptall"}, function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/chiepz/aslbnmnkhby7e/main/crqhryvjahdjwysrnegsf%5Csgd"))()
  end)
 
+ cmd.add({"bloxFruit"}, {"bloxFruit", "bloxFruit"}, function()
+	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()"))()
+end)
+
 cmd.add({"MichaelsZombies"}, {"MichaelsZombies", "MichaelsZombies"}, function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/fliptwo/iSPLOIT/main/Michael's%20Zombies", true))()
  end)
