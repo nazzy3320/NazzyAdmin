@@ -58,7 +58,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 3.2
+ currentversion = 3.4
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
