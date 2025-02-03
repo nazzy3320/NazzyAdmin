@@ -19,7 +19,7 @@
  local Notify = Notification.Notify;
 
  Notify({
-		 Description = "discord.gg/vjKxaxv9mR";
+		 Description = "discord.gg/6k9wnGHexj";
 		 Title = "Join the Discord Server!";
 		 Duration = 20;
 		 
@@ -58,7 +58,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 3.6
+ currentversion = 3.4
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -1939,7 +1939,7 @@ print(Time)
  
  cmd.add({"ping"}, {"ping", "Shows your ping"}, function()
  -- Gui to Lua
- -- Version: 3.2
+ -- Version: 3.6
  
  -- Instances:
  
@@ -1984,7 +1984,7 @@ print(Time)
  
 		 cmd.add({"fps"}, {"fps", "Shows your fps"}, function()
  -- Gui to Lua
- -- Version: 3.2
+ -- Version: 3.6
  
  -- Instances:
  
@@ -8087,7 +8087,7 @@ print(text)
  
  cmd.add({"antichatlogger", "acl"}, {"antichatlogger (acl)", "Anti chat logger"}, function()
  -- Gui to Lua
- -- Version: 3.2
+ -- Version: 3.6
  
  -- Instances:
  
@@ -9705,7 +9705,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 wait();
 	 
 	 Notify({
-	 Description = "discord.gg/vjKxaxv9mR";
+	 Description = "discord.gg/6k9wnGHexj";
 	 Title = "Nazzy Admin";
 	 Duration = 15;
 	 
@@ -9725,7 +9725,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 			 })
 		 })
 	 end
-	 setclipboard("discord.gg/vjKxaxv9mR")
+	 setclipboard("discord.gg/6k9wnGHexj")
 	 end)
  
  cmd.add({"exit"}, {"exit", "Close down roblox"}, function()
@@ -15186,5 +15186,5 @@ end
  --[[
 	End of the source code.
 	Join the discord for updates or give command ideas, that could be added.
-	discord.gg/vjKxaxv9mR
+	discord.gg/6k9wnGHexj
 --]]
