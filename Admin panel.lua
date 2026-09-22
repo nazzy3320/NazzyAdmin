@@ -1,8 +1,10 @@
 --[[
-  \  /   |\
-   \/    | \
-  / \    | /
- /   \   |/
+╭╮╱╭╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╱╱╱╭╮╭╮╱╱╱╱╱╱ | 
+┃╰╮┃┃╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱╱╱╱╱╱╱┃┃┃┃╱╱╱╱╱╱ | Welcome to the Nazzy Panel source, feel free to take a look around.
+┃╭╮╰╯┣━━┳━━━━┳━┫┃╱╰╋━━┳━╮╭━━┫┃┃┃━━┳━━╮ | Enjoy.
+┃┃╰╮┃┃╭╮┃╭╮╭┫╭┫┃╱╭┫╭╮┃╭╮┫╭╮┃┃┃┃━━┫━━┫ |
+┃┃╱┃┃┃╭╮┃┃┃┃┃┃┃╰━╯┃╭╮┃┃┃┃╭╮┃╰┫┃━━┣━━┃ |
+╰╯╱╰━┻╯╰┻╯╰╯╰╯╰━━━┻╯╰┻╯╰┻╯╰┻━┻┻━━┻━━╯ |
 --]]
 
  -- Waits until game is loaded
@@ -15,11 +17,11 @@
  end
  
  -- Notification library
- local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/nazzy3320/Admin-panel-NZ/main/FilteringEnabledFE"))();
+ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/notificationtest"))();
  local Notify = Notification.Notify;
 
  Notify({
-		 Description = "discord.gg/vjKxaxv9mR";
+		 Description = "There is not";
 		 Title = "Join the Discord Server!";
 		 Duration = 20;
 		 
@@ -31,23 +33,23 @@
  
  -- Creates folder & files for Prefix & Plugins
  if FileSupport then
- if not isfolder('Admin-NZ') then
- makefolder('Admin-NZ')
+ if not isfolder('Nazzy-Admin') then
+ makefolder('Nazzy-Admin')
  end
  
- if not isfolder('Admin-NZ/Plugins') then
-	 makefolder('Admin-NZ/Plugins')
+ if not isfolder('Nazzy-Admin/Plugins') then
+	 makefolder('Nazzy-Admin/Plugins')
  end
  
- if not isfile("Admin-NZ/Prefix.txt") then
- writefile("Admin-NZ/Prefix.txt", ';')
+ if not isfile("Nazzy-Admin/Prefix.txt") then
+ writefile("Nazzy-Admin/Prefix.txt", ';')
  else
  end
  end
  
  -- [[ PREFIX AND OTHER STUFF. ]] -- 
  local opt = {
-	 prefix = readfile("Admin-NZ/Prefix.txt", ';'), -- If player's executor has the custom file function support it reads the prefix file to get prefix
+	 prefix = readfile("Nazzy-Admin/Prefix.txt", ';'), -- If player's executor has the custom file function support it reads the prefix file to get prefix
 	 tupleSeparator = ',',	-- ;ff me,others,all | ;ff me/others/all
 	 ui = {					-- never did anything with this
 		 
@@ -58,7 +60,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 1.15
+ currentversion = 1.17
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -9676,7 +9678,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 wait();
 	 
 	 Notify({
-	 Description = "discord.gg/vjKxaxv9mR";
+	 Description = "discord.gg/mW442YxE4j";
 	 Title = "Nazzy Admin";
 	 Duration = 15;
 	 
@@ -9696,7 +9698,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 			 })
 		 })
 	 end
-	 setclipboard("discord.gg/vjKxaxv9mR")
+	 setclipboard("discord.gg/mW442YxE4j")
 	 end)
  
  cmd.add({"exit"}, {"exit", "Close down roblox"}, function()
@@ -15157,5 +15159,5 @@ end
  --[[
 	End of the source code.
 	Join the discord for updates or give command ideas, that could be added.
-	discord.gg/vjKxaxv9mR
+	There is not
 --]]
